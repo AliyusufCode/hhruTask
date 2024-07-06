@@ -74,7 +74,7 @@ body {
 }
 @media (max-width: 500px) {
   .app {
-    width: 80vh;
+    max-width: 340px;
     height: 568px;
     top: 8158px;
     left: 8070px;
