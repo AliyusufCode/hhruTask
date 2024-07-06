@@ -1,0 +1,60 @@
+.contentButtonLayout {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 532px;
+  height: fit-content;
+  top: 308px;
+  left: 62px;
+  padding: 14px 0px 14px 0px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  background: linear-gradient(
+    92.01deg,
+    rgba(124, 111, 207, 0.97) 0%,
+    rgba(116, 174, 170, 0.95) 49.13%,
+    #6fcf97 100%
+  );
+  box-shadow: 0px 0px 150px 0px rgba(165, 191, 180, 0.42);
+  button {
+    font-family: "Teko", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    color: rgba(28, 26, 26, 1);
+  }
+}
+@media (max-width: 500px) {
+  .contentButtonLayout {
+    display: flex;
+    z-index: 333;
+    justify-content: center;
+    position: relative;
+    width: 288px;
+    height: 20px !important;
+    margin-top: -70px;
+    left: 26px;
+    padding: 12px 0px 12px 0px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: linear-gradient(
+      92.01deg,
+      rgba(124, 111, 207, 0.97) 0%,
+      rgba(116, 174, 170, 0.95) 49.13%,
+      #6fcf97 100%
+    );
+    box-shadow: 0px 0px 150px 0px rgba(165, 191, 180, 0.42);
+    button {
+      font-family: "Teko", sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,117 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.app {
+  width: 1440px;
+  height: 916px;
+  top: 8158px;
+  left: 6461px;
+  gap: 0px;
+  opacity: 0px;
+  background: rgba(28, 26, 26, 1);
+  margin: 0 auto;
+}
+.bitcoin {
+  position: relative;
+  width: 312px;
+  height: 352px;
+  left: 1056px;
+  top: -560px;
+}
+.litecoin {
+  position: relative;
+  width: 312px;
+  height: 324px;
+  left: 196px;
+  top: -290px;
+  padding: 0px 17.38px 14.55px 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+.ethereum {
+  position: relative;
+  width: 312px;
+  height: 408px;
+  top: 0px;
+  left: 736px;
+  padding: 0px 12.39px 0px 9.8px;
+  gap: 0px;
+  opacity: 0px;
+}
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 16px;
+  position: relative;
+  width: 288px;
+  height: 138px;
+  left: 1050px;
+  top: -742px;
+  background: rgba(48, 45, 45, 0.34);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(111, 207, 151, 0.2);
+  border-radius: 20px;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 16px;
+  position: relative;
+  width: 288px;
+  height: 138px;
+  left: 850px;
+  margin: 20px 0;
+  top: -742px;
+  background: rgba(48, 45, 45, 0.34);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(111, 207, 151, 0.2);
+  border-radius: 20px;
+}
+@media (max-width: 500px) {
+  .app {
+    width: 80vh;
+    height: 568px;
+    top: 8158px;
+    left: 8070px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .div {
+    display: none;
+  }
+  .block {
+    display: none;
+  }
+  .bitcoin {
+    position: relative;
+    width: 136px;
+    height: 214px;
+    top: -200px;
+    gap: 0px;
+    filter: blur(4px);
+    left: 190px;
+  }
+  .litecoin {
+    position: relative;
+    width: 136px;
+    height: 214px;
+    top: -330px;
+    gap: 0px;
+    filter: blur(4px);
+    left: 28px;
+  }
+  .ethereum {
+    position: relative;
+    width: 136px;
+    height: 214px;
+    top: -30px;
+    gap: 0px;
+    filter: blur(4px);
+    left: 56px;
+  }
+}

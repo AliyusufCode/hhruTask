@@ -1,0 +1,72 @@
+.contentAdvantagesLayout {
+  position: relative;
+  width: 554px;
+  height: 74px;
+  top: 224px;
+  gap: 126px;
+  opacity: 0px;
+  margin-left: 62px;
+  display: flex;
+  .advantagesContent {
+    width: auto;
+    height: auto;
+    gap: 2px;
+    opacity: 0px;
+    .count {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 48px;
+      color: rgba(242, 242, 242, 1);
+      font-family: "Teko", sans-serif;
+      text-align: left;
+      padding: 0;
+      margin: 0;
+    }
+    .countBottom {
+      font-family: "Teko", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: rgba(242, 242, 242, 0.3);
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .contentAdvantagesLayout {
+    z-index: 333;
+    width: 288px;
+    height: 50px;
+    top: 378px;
+    margin-top: -90px;
+    left: 34px;
+    gap: 49px;
+    top: 224px;
+    margin-left: 2px;
+    display: flex;
+    .advantagesContent {
+      width: auto;
+      height: auto;
+      gap: 2px;
+      opacity: 0px;
+      width: 57px;
+      height: 50px;
+      gap: 2px;
+      opacity: 0px;
+      .count {
+        text-align: left;
+        font-size: 28px;
+        line-height: 28px;
+        text-align: left;
+      }
+      .countBottom {
+        width: 100px;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(242, 242, 242, 0.3);
+      }
+    }
+  }
+}
